@@ -19,7 +19,7 @@ const CreateBooks = () => {
       publishYear,
     }
     setLoading(true)
-    axios.post('https://book-store-backend.vercel.app/books', data)
+    axios.post('https://book-store-backend-swart.vercel.app/books', data)
     .then(() => {
       setLoading(false)
       nav('/')

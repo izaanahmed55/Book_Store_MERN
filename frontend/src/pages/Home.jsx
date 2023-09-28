@@ -12,7 +12,7 @@ const Home = () => {
 
   useEffect(() => {
     setLoading(true)
-    axios.get('/books')
+    axios.get('https://book-store-iak.vercel.app/books')
     .then((res) => {
       console.log(res)
       setBooks(res.data.data)

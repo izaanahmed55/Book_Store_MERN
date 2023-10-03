@@ -34,7 +34,7 @@ const CreateBooks = () => {
   return (
     <div className="p-4">
       <BackButton/>
-      <h1 className="text-3xl my-4"> Create Book </h1>
+      <h1 className="mb-4 text-3xl font-extrabold text-gray-900 py-4 dark:text-white md:text-5xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400"> Create </span> Book.</h1>
       {loading ? (
         <Spinner/>
       ) : (
